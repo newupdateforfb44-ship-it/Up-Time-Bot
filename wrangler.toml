@@ -1,4 +1,4 @@
-name = "uptime-bot"
+name = "up-time-bot"
 main = "index.js"
 compatibility_date = "2025-09-01"
 
