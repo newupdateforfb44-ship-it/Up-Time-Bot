@@ -1,0 +1,17 @@
+name = "uptime-bot"
+main = "src/index.js"
+compatibility_date = "2025-09-01"
+
+# Runs the pinger every minute
+[triggers]
+crons = ["* * * * *"]
+
+# Database. Create it in Cloudflare first, then paste its ID below.
+[[d1_databases]]
+binding = "DB"
+database_name = "uptime-db"
+database_id = "PASTE_YOUR_D1_DATABASE_ID_HERE"
+
+# DO NOT put your bot token in this file (GitHub is public).
+# Add BOT_TOKEN and WEBHOOK_SECRET in the Cloudflare dashboard instead:
+# Worker > Settings > Variables and Secrets
