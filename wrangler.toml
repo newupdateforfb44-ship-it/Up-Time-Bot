@@ -10,7 +10,7 @@ crons = ["* * * * *"]
 [[d1_databases]]
 binding = "DB"
 database_name = "uptime-db"
-database_id = "3dcee5bb-80c6-40f3-b852-1ce629e5383e"
+database_id = "b9dd220b-4185-4725-93a2-e85f7975220e"
 
 # DO NOT put your bot token in this file (GitHub is public).
 # Add BOT_TOKEN and WEBHOOK_SECRET in the Cloudflare dashboard instead:
